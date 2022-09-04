@@ -13,8 +13,8 @@ const Navega = () => {
         <img src={Logo} alt="logo" />
       </div>
       <div className="buscar">
-        <input type="text" placeholder="¿Qué estás buscando?" size={50} />
-        <img src={Lupa} alt="lup" />
+      <input className="search" type="input" placeholder="¿Qué estás buscando?" />
+        <img className="img-search" src={Lupa} alt="lup" />
       </div>
       <div className="cuenta">
         <img src={Account} alt="acco" />

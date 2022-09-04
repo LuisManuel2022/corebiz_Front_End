@@ -1,11 +1,10 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 .main-desk {
   width: 100%;
   height: auto;
-  
   position: fixed;
   z-index: 100;
   top: 0;
@@ -15,30 +14,27 @@
   align-self: center;
   display: flex;
   background-color: white;
-
 }
 
-.log {
-}
 .cart {
   position: fixed;
   z-index: 100;
   margin-top: 50px;
 }
 
-.buscar {
+.buscar .search {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #7a7a7a87;
+  height: 30px;
+  width: 100%;
+  outline: none;
+}
+
+.img-search {
+  position: absolute;
 }
 
 .main-responsive {
   display: none;
-}
-
-@media screen (min-width: 721px) {
-  .main-desk {
-    display: none;
-  }
-
-  
-
-
 }

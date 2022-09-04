@@ -11,13 +11,13 @@ export const ItemCart = ({ item }) => {
 
   return (
     <div className={styles.cartItem}>
-      <img src={item.img} alt={item.name} />
+      <img src={item.imageUrl} alt={item.productName} />
       <div className={styles.dataContainer}>
         <div className={styles.left}>
-          <p>{item.name}</p>
+          <p>{item.productName}</p>
           <div className={styles.buttons}>
-            <button onClick={() => AddItemToCart(item)}>AGREGAR</button>
-            <button onClick={() => DeleteItemToCart(id)}>SACAR</button>
+            <button onClick={() => AddItemToCart(item)}>AGREGAR + 1</button>
+            <button onClick={() => DeleteItemToCart(id)}>ELIMINAR -1</button>
           </div>
         </div>
         <div className={styles.right}>
