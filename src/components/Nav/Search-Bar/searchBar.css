@@ -8,12 +8,21 @@
   border: none;
   border-bottom: 1px solid #7a7a7a87;
   height: 30px;
-  width: 30%;
+  width: 90%;
   outline: none;
+  margin-bottom: 10px;
+ 
 }
 
-.search-bar .img {
-    position: absolute;
-    right: 0px;
-    top: 10px
+.search-bar .input {
+  width: 100%;
 }
+
+.search-bar .lupa {
+   display: flexbox;      
+}
+
+.login {
+  visibility: hidden;
+}
+

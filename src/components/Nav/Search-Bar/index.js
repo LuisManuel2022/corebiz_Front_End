@@ -7,7 +7,7 @@ const SearchBar = () => {
     
     <div className='search-bar'>
         <input type="input" placeholder="¿Qué estás buscando?" size="150px"/>
-        <img src={Search} alt='barra' />
+        <img className='lupa' src={Search} alt='barra' />
     </div>
     
   )
