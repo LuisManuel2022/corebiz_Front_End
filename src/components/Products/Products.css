@@ -1,0 +1,84 @@
+.main {
+  width: 80%;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.product {
+  width: 100%;
+  height: 300px;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  box-shadow: 0 0 1rem #00000025 inset;
+}
+
+/*.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  gap: .5rem;
+}*/
+
+.imgproduct {
+  width: 100%;
+}
+
+.imgproduct img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.name {
+  text-align: center;
+  color: rgb(88, 84, 84);
+}
+
+.listprice {
+  text-align: center;
+  font-size: small;
+  color: black;
+}
+
+.price {
+  text-align: center;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-shop {
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  visibility: visible;
+  width: 100px;
+  height: 25px;
+  margin: auto;
+
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.rating span {
+  font-size: small;
+  color: rgb(240, 61, 61);
+}
+
+.installments {
+  font-size: x-small;
+}
+
+
+.container-hover:hover {
+cursor: pointer;
+background-color: #00000025;
+ 
+}
