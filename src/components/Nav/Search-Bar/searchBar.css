@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #7a7a7a87;
+  height: 30px;
+  width: 30%;
+  outline: none;
+}
+
+.search-bar .img {
+    position: absolute;
+    right: 0px;
+    top: 10px
+}
