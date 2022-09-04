@@ -1,13 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .main-desk {
-  width: 90%;
+  width: 100%;
   height: auto;
+  
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   align-items: center;
   justify-content: space-around;
   align-self: center;
   display: flex;
+  background-color: white;
+
 }
 
 .log {
@@ -25,14 +33,12 @@
   display: none;
 }
 
-@media screen only(max-width: 721px) {
+@media screen (min-width: 721px) {
   .main-desk {
     display: none;
   }
 
-  .main-responsive {
-    display: grid;
-  }
+  
 
 
 }
