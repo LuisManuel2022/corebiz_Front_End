@@ -26,5 +26,6 @@
 
 .log {
   margin-right: 50px;
+  object-fit: scale-down;
 }
 

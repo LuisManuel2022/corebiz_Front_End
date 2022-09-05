@@ -78,6 +78,7 @@
     opacity: 1;
     border: none;
     margin: 0 4px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
