@@ -23,6 +23,8 @@ const Navega = () => {
         <Cart />
       </div>
     </div>
+
+    
   );
 };
 
