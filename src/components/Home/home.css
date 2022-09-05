@@ -47,6 +47,18 @@ hr {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 721px) {
+  .swiper_productos {
+    --swiper-theme-color: rgb(231, 145, 145);
+  --swiper-pagination: {
+    el: 'swiper-pagination',
+    type: 'bullets',
+    --swiper-navigation-size: 0px;
+  }
+  
+}
+}
+
 
 
 

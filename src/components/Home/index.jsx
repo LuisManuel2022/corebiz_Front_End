@@ -23,13 +23,14 @@ const Home = () => {
 
   return (
     <div className="products">
-      <h1>Más Vendidos</h1>      
+      <h1>Más Vendidos</h1>
       <hr />
       <div className="container_products ">
-        <Swiper className="swiper_productos "
+        <Swiper
+          className="swiper_productos "
           modules={[Navigation, Pagination]}
           navigation
-          loop="false"  
+          loop="false"
           breakpoints={{
             0: {
               slidesPerView: 2,
@@ -48,8 +49,6 @@ const Home = () => {
               spaceBetween: 2,
             },
           }}
-          
-          
         >
           {ProductsData.map((product, i) => (
             <SwiperSlide key={i}>
