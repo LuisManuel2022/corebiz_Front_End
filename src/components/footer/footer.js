@@ -12,7 +12,7 @@ const Footer = () => {
             <h3>Ubicacion</h3>
             <br />
             <hr className='lines'/>
-            <br />
+            <br /><br /><br /><br /><br />
             <h5>Avenida Andromeda, 2000. Bloco G o B</h5>
             <h5>alphaVille SP</h5>
             <h5>brasil@corebiz.ag</h5>

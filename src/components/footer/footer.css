@@ -7,13 +7,21 @@
     align-items: center;
 }
 .localizacion {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
     color: aliceblue;
     margin-left: 40px;
+}
+
+.localizacion h3 {
+	margin-top: 0px;
 }
 
 .lines {
 	width: 20%;
 	border: 2px solid #FFFFFF;
+	margin-left: 0px;
 }
 .contacto {
     display: inline-flex;
