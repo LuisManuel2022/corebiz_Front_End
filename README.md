@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+Este proyecto fue elaborado en la libreria de Visual Studio Code 
+se creó con create-react-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+El directorio del proyecto puede ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El modo de desarrollo se ejecuta en:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.76:3000
 
-### `npm test`
+  para visualizarlo en su navegador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se ha configurado el grabado automático en cualquier momento en 
+que sea modificado.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El framework instalado, se ha mantenido actualizado en su totalidad incluyendo librerías adicionales (sass, swiper, accounting, etc).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Versión: 1.71.0 (user setup)
+Commit: 784b0177c56c607789f9638da7b6bf3230d47a8c
+Fecha: 2022-09-01T07:37:58.856Z
+Electrón: 19.0.12
+Chromium: 102.0.5005.167
+Node.js: 16.14.2
+V8: 10.2.154.15-electron.0
+OS: Windows_NT ia32 10.0.19044
+En espacio aislado: No
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se siguen las instrucciones, especifícaciones técnicas y la misión
+para el comienzo de la elaboración del proyecto, atendiendo únicamente 
+lo requerido, aunque se agrega un PLUS en la información del carrito de
+los productos comprados.
 
-### `npm run eject`
+El proyecto simula una tienda en línea, ofreciendo productos diversos.
+Informa al cliente el nombre de la tienda incluyendo su logotipo, un espacio de 
+búsqueda, la oportunidad de loguearse en caso de ser cliente frecuente (no habilitado).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+La elaboración progresiva del proyecto, se elaboró analizando y realizando
+pruebas de funcionamiento con diferentes métodos para el consumo de API y se 
+ha elegido el método Fetch por criterio propio del developer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se elabora la respectiva barra de navegación.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Las imágenes utilizadas en la segunda sección del proyecto, fueron elaboradas de manera sencilla por el developer a criterio propio respetando los derechos reservados que puedan contener cada una.
+se elabora el slider horizontal para la visualización de imágenes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Se muestran los productos en la vitrina correspondiente, ofreciendo
+al cliente la posibilidad de comprar no sólo un producto, sino el 
+número de productos que requiera y se brinda la posibilidad de revisarlos
+en el carrito antes de realizar la compra. Así puede agregar uno más o
+eliminar los productos que de manera errónea haya agregado al carrito y 
+cumpliendo con los requisitos de mantener los productos en el carrito
+aunque la aplicación sea actualizada.
 
-## Learn More
+Se elabora el formulario Newsletter, atendiendo estrictamente las indicaciones para la validación de campos y el envío correcto a través de API de Newsletter.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Finalmente se elabora el Footer con la información de la Empresa.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
