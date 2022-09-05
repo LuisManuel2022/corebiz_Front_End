@@ -23,8 +23,7 @@ const Home = () => {
 
   return (
     <div className="products">
-      <h1>Más Vendidos</h1>
-      
+      <h1>Más Vendidos</h1>      
       <hr />
       <div className="container_products ">
         <Swiper className="swiper_productos "
