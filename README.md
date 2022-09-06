@@ -59,6 +59,13 @@ Se elabora el formulario Newsletter, atendiendo estrictamente las indicaciones p
 
 Finalmente se elabora el Footer con la información de la Empresa.
 
+NOTA IMPORTANTE !!
+1. Abrir el proyecto con el editor de tu preferencia (en mi caso utilizo VSC)
+2. La carpeta node_modules es inexistente, por lo tanto no se podrá ejecutar en ese momento.
+3. Instalar npm (npm install) para crear e instalar node_modules.
+4. Al finalizar la instación, podras ejecutar npm star y el proyecto se podrá visualizar en tu navegador.
+
+
 
 
 
