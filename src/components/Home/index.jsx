@@ -25,11 +25,14 @@ const Home = () => {
     <div className="products">
       <h1>Más Vendidos</h1>
       <hr />
-      <div className="container_products ">
+      <div className="container_products">
         <Swiper
-          className="swiper_productos "
+          className="swiper_productos"
           modules={[Navigation, Pagination]}
           navigation
+          pagination={{
+            clickable: true,
+          }}
           loop="false"
           breakpoints={{
             0: {
