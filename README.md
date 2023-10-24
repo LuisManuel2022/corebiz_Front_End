@@ -63,7 +63,7 @@ NOTA IMPORTANTE !!
 1. Abrir el proyecto con el editor de tu preferencia (en mi caso utilizo VSC)
 2. La carpeta node_modules es inexistente, por lo tanto no se podrá ejecutar en ese momento.
 3. Instalar npm (npm install) para crear e instalar node_modules.
-4. Al finalizar la instación, podras ejecutar npm star y el proyecto se podrá visualizar en tu navegador.
+4. Al finalizar la instación, podras ejecutar npm start y el proyecto se podrá visualizar en tu navegador.
 
 
 
